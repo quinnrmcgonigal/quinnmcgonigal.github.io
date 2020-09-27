@@ -1,0 +1,44 @@
+h2 {border-style: solid; border-color: red; border-radius: 25px; color: white; font-family: 'Montserrat', sans-serif; text-align: center; padding: 15px;}
+
+body {background-color: black;}
+
+img {width: 250px; padding-left: 20%;}
+
+li {color: white; font-family: 'Montserrat', sans-serif; padding: 20px; padding-left: 20px;}
+
+a:hover {color: red;}
+
+a {color: white;}
+
+/* Grid Allignment */
+
+#section1 {grid-template-columns: 67% auto;
+      grid-template-rows: auto;}
+
+img {grid-column: 2 / 3; grid-row: 1 / 2; padding: 10px;}
+
+ul {grid-column: 1 / 2; grid-row: 1 / 2; padding: 100px;}
+
+#section1 {display: grid; border-style: solid; border-color: red; border-radius: 25px; border-spacing: 10px;}
+
+#section2 {grid-template-columns: 67% auto;
+      grid-template-rows: auto;}
+
+img {grid-column: 2 / 3; grid-row: 1 / 2; padding: 10px;}
+
+ul {grid-column: 1 / 2; grid-row: 1 / 2; padding: 100px;}
+
+#section2 {display: grid; border-style: solid; border-color:white; border-radius: 25px; border-spacing: 10px;}
+
+#heading2 {border-color:white;}
+
+#section3 {grid-template-columns: auto auto;
+      grid-template-rows: auto;}
+
+#img3{grid-column: 2 / 3; grid-row: 1 / 2; padding: 10px; width: 750px; padding-top: 120px; padding-right: 25px;}
+
+ul {grid-column: 1 / 2; grid-row: 1 / 2; padding: 100px;}
+
+#section3 {display: grid; border-style: solid; border-color:blue; border-radius: 25px; border-spacing: 10px; padding-top: 10px;}
+
+#heading3 {border-color:blue;}

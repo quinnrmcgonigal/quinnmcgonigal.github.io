@@ -5,14 +5,17 @@ h1 {
 
 h2 {
     font-family: 'Montserrat', sans-serif; 
+    padding: 25px;
 }
 
 header {
-    background-color: rgb(126, 181, 237);
+    background-color: rgb(23, 80, 173);
+    margin: 0;
+    padding: 0;
 }
 
 footer {
-    background-color: rgb(126, 181, 237);
+    background-color: rgb(23, 80, 173);
     height: 90px;
     text-align: center;
 }
@@ -22,31 +25,42 @@ nav {
     border-style: solid;
     border-radius: 25px;
     border-color: black;
+    background-color: black;
+    border-width: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 a {
     text-decoration: none;
     font-family: 'Roboto Mono', monospace;
-    padding-left: 100px;
-    padding-bottom: 30px;
-    color: black;
+    padding-left: 75px;
+    color: white;
     margin-top: 30px;
 }
 
-a:hover {color: white;}
+a:hover {color: grey;}
 
 p {
     font-family: 'Roboto Mono', monospace;
-    
+    padding: 25px;
+}
+
+img {
+    width: 20%;
+    padding-left: 50px;
 }
 
 li {
     font-family: 'Roboto Mono', monospace;
-    padding-bottom: 30px;
 }
 
 body {
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 5%;
+    padding-right: 5%;
     background-color: lightgray;
+}
+
+div {
+    background-color: white;
 }

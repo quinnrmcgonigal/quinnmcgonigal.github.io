@@ -16,7 +16,6 @@ header {
 
 footer {
     background-color: rgb(23, 80, 173);
-    height: 90px;
     text-align: center;
 }
 
@@ -63,4 +62,9 @@ body {
 
 div {
     background-color: white;
+}
+
+script {
+    color: black;
+    font-family: 'Roboto Mono', monospace;
 }

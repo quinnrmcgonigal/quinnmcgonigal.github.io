@@ -1,0 +1,132 @@
+@media only screen and (min-width: 35em) {
+
+header {
+        display: grid;
+        grid-template-columns: 150px 300px;
+        grid-template-rows: repeat(2, 50px);
+        margin: auto;
+        margin-bottom: 150px;
+    }
+    
+.logo {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        margin-top: 10px;
+        width: 100px !important;
+    }
+    
+.logo-title {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        padding-top:10px;
+        font-size: 34px;
+        color: black !important;
+    }
+    
+.logo-paragraph {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        color: black !important;
+        font-size: 14px;
+    }
+
+p {
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    font-size: 14px;
+}
+    
+    
+.preston-heading {
+    margin-bottom: 10px;
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+    
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+    
+    
+.hero {
+    text-align: center;
+    border-style: solid;
+    margin: auto;
+}
+    
+.fiveday {
+    text-align: center;
+    border-style: solid;
+    margin-bottom: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+    
+.article {
+    text-align: center;
+    border-style: solid;
+    margin-bottom: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+    
+.contact {
+    text-align: center;
+    border-style: solid;
+    margin-bottom: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+    
+    
+    
+    
+footer {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    background-color: cornflowerblue;
+    max-width: 1250px;
+    margin: auto;
+}
+
+nav button {
+    display: none;
+}
+
+nav ul.hide {
+    display: block;
+}
+
+
+nav ul li a {
+    float: left;
+    text-align: center;
+    width: 11%;
+}
+
+li {
+    margin-left: 2%;
+}
+
+nav ul li a {
+    border: none;
+    padding: .8rem 1rem;
+    overflow: hidden;
+    margin-left: 1%;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+}
+

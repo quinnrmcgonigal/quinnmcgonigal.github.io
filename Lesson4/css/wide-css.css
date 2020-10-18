@@ -1,60 +1,100 @@
 @media only screen and (min-width: 64em) {
-
-nav ul li a {
-    padding: .6rem 1rem;
+    
+.top {
+    margin-bottom: 10px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 #logo {
     width: 120px;
 }
 
+header {
+    display: grid;
+    grid-template-columns: repeat(2,150px);
+    grid-template-rows: repeat(2,150px);
+}
+
+.logo {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.logo-title {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.logo-paragraph {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+nav ul li a {
+    padding: .6rem 1rem;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.preston-heading {
+    margin-bottom: 10px;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
 h2 {
-    font-family: 'Montserrat', sans-serif; 
-    font-size: 40px;  
+    font-family: 'Montserrat', sans-serif;
 }
-
-.byuilink {
-    color: black;
-}
-
-a {
-    color: white;
-}
-
 
 
 .hero {
     text-align: center;
     border-style: solid;
-    border-radius: 25px;
     margin-bottom: 10px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .fiveday {
     text-align: center;
     border-style: solid;
-    border-radius: 25px;
     margin-bottom: 10px;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 10px;
 }
 
 .article {
     text-align: center;
     border-style: solid;
-    border-radius: 25px;
     margin-bottom: 10px;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 10px;
 }
 
 .contact {
     text-align: center;
     border-style: solid;
-    border-radius: 25px;
     margin-bottom: 10px;
-}
-
-main {
     max-width: 1200px;
     margin: auto;
+    margin-top: 10px;
 }
+
+
 
 
 footer {
@@ -66,3 +106,4 @@ footer {
 }
 
 }
+

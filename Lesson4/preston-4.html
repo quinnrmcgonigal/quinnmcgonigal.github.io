@@ -1,27 +1,39 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Fill Me In">
+<meta name="author" content="Quinn McGonigal">
+
+<!-- This start file was build by Paul Cheney  -->
+<title>Preston</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/wide-css.css">
 <link rel="stylesheet" href="css/med-css.css">
 <link rel="stylesheet" href="css/small-css.css">
 
-<header>
-    <img id="logo" src="/Users/quinnmcgonigal/GitHub/quinnmcgonigal.github.io/Lesson4/images/iconfinder_weather_1054936.png">
-    <h2 id="logo-title">QUIK WEATHER</h2>
-    <p id="logo-paragraph">The quickest weather in the West</p>
+<header class="top">
+    <img class="logo" src="/Users/quinnmcgonigal/GitHub/quinnmcgonigal.github.io/Lesson4/images/iconfinder_weather_1054936.png">
+    <h2 class="logo-title">QUIK WEATHER</h2>
+    <p class="logo-paragraph">The quickest weather in the West</p>
 </header>
-<nav class="clearfix">
-    <button onclick="toggleMenu()">&#9776;</button>
-    <ul class="primaryNav" class="">
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="preston-4.html">PRESTON</a></li>
-        <li><a href="soda-springs.html">SODA SPRINGS</a></li>
-        <li><a href="fish-haven.html">FISH HAVEN</a></li>
-        <li><a href="storm-center.html">STORM CENTER</a></li>
-        <li><a href="gallary.html">GALLARY</a></li>
-    </ul>
-</nav>
-<main>
+<body>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li class="column1"><a href="index.html">HOME</a></li>
+            <li class="column2"><a href="preston-4.html">PRESTON</a></li>
+            <li class="column3"><a href="soda-springs.html">SODA SPRINGS</a></li>
+            <li class="column4"><a href="fish-haven.html">FISH HAVEN</a></li>
+            <li class="column5"><a href="storm-center.html">STORM CENTER</a></li>
+            <li class="column6"><a href="gallary.html">GALLARY</a></li>
+        </ul>
+    </nav>
+
     <h2 class="preston-heading">PRESTON, IDAHO</h2>
     <section class="hero">
         <p>Hero w/ weather summary</p>
@@ -35,7 +47,8 @@
     <section class="contact">
         <p>Contact Information</p>
     </section>
-</main>
+    <script src="js/scripts.js"></script>
+</body>
 <footer class="footer">
     <p id="top-header"> &copy; 2020 | Quinn R. McGonigal | California | <a class="byuilink" href="https://www.byui.edu/online">BYUI Online Learning</a></p>
     <p id="bottom-header">

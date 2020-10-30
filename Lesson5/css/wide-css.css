@@ -97,8 +97,8 @@ h2 {
 footer {
     font-family: 'Roboto Mono', monospace;
     text-align: center;
-    background-color: cornflowerblue;
-    max-width: 1250px;
+    background-color: rgb(69, 82, 104);
+    width: 100%;
     margin: auto;
 }
 
@@ -110,7 +110,7 @@ h2 {
     margin: 10px auto;
     position: relative;
     width: 960px;
-    height: 460px;
+    height: 370px;
 }
 
 .hero-ph {
@@ -128,12 +128,147 @@ h2 {
     padding: 5px;
     border: solid black;
     width: 250px;
-    background-color: rgb(58, 143, 255, 0.5);
+    background-color: rgb(69, 82, 104, 0.8);
+    margin-top: 5%;
 }
 
 .heroimg {
     max-width: 960px;
 }
 
+.weathericon1, .weathericon2, .weathericon3, .weathericon4, .weathericon5 {
+    width: 60px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
+
+ul {
+    list-style-type: none;
+}
+
+.day1, .day2, .day3, .day4, .day5  {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    margin-right: 34px !important ;
+    margin-left: 34px !important;
+}
+
+.temp1, .temp2, .temp3, .temp4, .temp5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    margin-right: 34px !important ;
+    margin-left: 34px !important;
+}
+
+.fiveday {
+    margin: 10px auto;
+    position: relative;
+    width: 960px;
+    height: 220px;
+    padding-top: 0;
+    margin:aut;
+    background-color: rgb(69, 82, 104);
+    margin-bottom: 10px;
+}
+
+.images {
+    padding-top:24px;
+}
+
+.fivedayheader {
+    border: solid black;
+    border-radius: 25px;
+    width: 280px;
+    text-align: center;
+    margin: 10px auto;
+    background-color: black;
+    color: white;
+}
+
+.prestonheader {
+    border: solid black;
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+    width: 300px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.temp {
+    margin-right:4%;
+}
+
+.articlediv {
+    margin: 10px auto;
+    position: relative;
+    width: 960px;
+    height: 370px;
+    border: solid black;
+    background-color: black;
+}
+
+.articleimg {
+    max-width: 300px;
+    float: right;
+    margin:10px;
+    border-radius: 25px;
+}
+
+.articlep {
+    color: white;
+    text-align: justify;
+    padding: 5px;
+}
+
+.articleh3 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 10px;
+}
+
+.infodiv {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 30px 170px 75px;
+    width: 100%;
+    border: solid  rgb(69, 82, 104);
+}
+
+
+.social1, .social2, .social3 {
+    width: 35px;
+}
+
+.infotitle {
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+.infop {
+    color: black;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    padding-top: 75px;
+}
+
+.mapimg {
+    grid-row: 1/2;
+    grid-column: 1/4;
+    max-width: 100%;
+    padding: 20px;
+    align-self: center;
+}
+
+.socialdiv {
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+
+}
+
 

@@ -1,0 +1,55 @@
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+img {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 400px;
+
+    transform: translateX(50%);
+    opacity: 1;
+    transition: all 500ms;
+}
+
+.main {
+    display: grid;
+    grid-template-rows: 510px 510px 510px 510px 510px 510px;
+}
+
+.flowers {
+    grid-row: 1/2;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.mountian {
+    grid-row: 2/3;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.lake{
+    grid-row: 3/4;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.ocean {
+    grid-row: 4/5;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.city{
+    grid-row: 5/6;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.snow{
+    grid-row: 6/7s;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

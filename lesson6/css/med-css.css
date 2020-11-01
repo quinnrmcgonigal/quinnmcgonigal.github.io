@@ -1,0 +1,310 @@
+@media only screen and (min-width: 35em) {
+
+header {
+        display: grid;
+        grid-template-columns: 150px 300px;
+        grid-template-rows: repeat(2, 50px);
+        margin: auto;
+        margin-bottom: 150px;
+    }
+    
+.logo {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        margin-top: 10px;
+        width: 100px !important;
+    }
+    
+.logo-title {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        padding-top:10px;
+        font-size: 34px;
+        color: black !important;
+    }
+    
+.logo-paragraph {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        color: black !important;
+        font-size: 14px;
+    }
+
+p {
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    font-size: 14px;
+}
+    
+    
+.preston-heading {
+    margin-bottom: 10px;
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+    
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+    
+    
+.hero {
+    text-align: center;
+    border-style: solid;
+    margin: auto;
+}
+    
+.fiveday {
+    text-align: center;
+    border-style: solid;
+    margin-bottom: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+    
+.article {
+    text-align: center;
+    border-style: solid;
+    margin-bottom: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+    
+.contact {
+    text-align: center;
+    border-style: solid;
+    margin-bottom: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+    
+    
+    
+    
+footer {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    background-color: cornflowerblue;
+    width: 100%;
+    margin: auto;
+}
+
+nav button {
+    display: none;
+}
+
+nav ul.hide {
+    display: block;
+}
+
+
+nav ul li a {
+    float: left;
+    text-align: center;
+    width: 11%;
+}
+
+li {
+    margin-left: 2%;
+}
+
+nav ul li a {
+    border: none;
+    padding: .8rem 1rem;
+    overflow: hidden;
+    margin-left: 1%;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h2 {
+    text-align: center;
+}
+
+.heroimg {
+    width: 100%;
+}
+
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+    max-width: 960px;
+    max-height: 370px;
+}
+
+.hero-ph {
+    margin: 10px auto;
+    background-color: #eee;
+    border: 1px solid #333;
+    width: 100%;
+    max-height: 362px;
+}
+
+.weathersummary {
+    position: absolute;
+    top: 1rem;
+    left: 10px;
+    padding: 5px;
+    border: solid black;
+    width: 280px;
+    background-color: rgb(69, 82, 104, 0.8);
+    margin-top: 5%;
+}
+
+.weathericon1, .weathericon2, .weathericon3, .weathericon4, .weathericon5 {
+    width: 60px !important;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.day1, .day2, .day3, .day4, .day5  {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px !important;
+    color: white;
+    display: inline-block;
+    margin-right: 30px !important;
+    margin-left: 30px !important;
+}
+
+.temp1, .temp2, .temp3, .temp4, .temp5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px !important;
+    color: white;
+    display: inline-block;
+    margin-right: 29px !important;
+    margin-left: 29px !important;
+}
+
+.fiveday {
+    margin: 10px auto;
+    position: relative;
+    height: 220px;
+    padding-top: 0;
+    margin:0;
+    background-color: rgb(69, 82, 104);
+    margin-bottom: 10px;
+}
+
+.days {
+    text-align: center !important;
+    margin: auto !important;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+}
+
+.images {
+    width: 100%;
+}
+
+.fivedayheader {
+    border: solid black;
+    border-radius: 25px;
+    width: 280px;
+    text-align: center;
+    margin: 10px auto;
+    background-color: black;
+    color: white;
+}
+
+.temp {
+    margin-right: 5%;
+}
+
+.articlediv {
+    margin: 10px auto;
+    position: relative;
+    max-width: 960px;
+    max-height: 600px;
+    border: solid black;
+    background-color: black;
+}
+
+.articleimg {
+    max-width: 300px !important;
+    float: right !important;
+    margin:10px;
+    border-radius: 25px;
+}
+
+.articlep {
+    color: white;
+    text-align: justify;
+    padding: 5px;
+}
+
+.articleh3 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 10px;
+}
+
+.infodiv {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 30px 170px 75px;
+    border: solid  rgb(69, 82, 104);
+}
+
+.social1, .social2, .social3 {
+    width: 35px;
+    padding-top:30px;
+    padding-left: 30px;
+}
+
+.infotitle {
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+.infop {
+    color: black;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    padding-top: 75px;
+    margin: 20px
+}
+
+.mapimg {
+    float: left;
+    grid-row: 1/4;
+    grid-column: 1/2;
+    max-width: 100%;
+    align-self: center;
+}
+
+.socialdiv {
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.snow, .rainbow, .river, .spring2, .fall, .morning, .tornado, .lightning, .spring {
+    margin: 3px;
+    border: solid black 1px;
+    text-align: center;
+}
+
+
+}
+

@@ -1,0 +1,308 @@
+nav button {
+    margin: .2rem 2%;
+    border: none;
+    font-size: 1.6rem;
+    color: white;
+    margin-left: 90%;
+    height: 80px;
+    font-size: 40px;
+    background-color: transparent;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+nav {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: cornflowerblue;
+}
+
+nav ul li.active a{
+    background-color:rgb(97, 209, 246);
+}
+
+ul.hide {display: none;}
+
+nav li{
+    display: block;
+    border-color: rgb(61, 61, 61);
+    border-width: 1px;
+
+}
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+button {
+    float: left;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: 150px 300px;
+    grid-template-rows: repeat(2, 50px);
+    margin: auto;
+    align-items: center;
+}
+
+.logo {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    float: left;
+    width: 75px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.logo-title {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding-top:10px;
+    font-size: 34px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo-paragraph {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: 15px;
+    padding: 0;
+    margin:0;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.hero {
+    text-align: center;
+    border-style: solid;
+    margin-bottom: 10px;
+    margin: auto;
+}
+
+.fiveday {
+    text-align: center;
+    border-style: solid;
+    margin-bottom: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.article {
+    text-align: center;
+    border-style: solid;
+    margin-bottom: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.contact {
+    text-align: center;
+    border-style: solid;
+    margin-bottom: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+footer {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    background-color:  rgb(69, 82, 104);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+p, a {
+    color: white;
+}
+
+.herodiv {
+    margin:auto;
+    position: relative;
+    max-height: 370px;
+}
+
+.heroimg {
+    width: 100%;
+}
+
+.hero-ph {
+    margin: 10px auto;
+    background-color: #eee;
+    border: 1px solid #333;
+}
+
+.weathersummary {
+    left: 10px;
+    background-color: rgb(69, 82, 104, 0.8);
+    margin-top: 5%;
+}
+
+
+
+.weathericon1, .weathericon2, .weathericon3, .weathericon4, .weathericon5 {
+    width: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.days {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.temp {
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+.day1, .day2, .day3, .day4, .day5  {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: white;
+    display: inline-block;
+    margin-right: 27px;
+    margin-left: 27px;
+}
+
+.temp1, .temp2, .temp3, .temp4, .temp5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: white;
+    display: inline-block;
+    margin-right: 27px;
+    margin-left: 27px;
+}
+
+.fiveday {
+    margin: 10px auto;
+    position: relative;
+    background-color: rgb(69, 82, 104);
+}
+
+.fivedayheader {
+    border: solid black;
+    border-radius: 25px;
+    width: 280px;
+    text-align: center;
+    margin: 10px auto;
+    background-color: black;
+    color: white;
+}
+
+.prestonheader {
+    border: solid black;
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+    width: 300px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.temp {
+    margin-right:4%;
+}
+
+.articlediv {
+    margin: 10px auto;
+    border: solid black;
+    background-color: black;
+}
+
+.articleimg {
+    max-width: 100%;
+}
+
+.articlep {
+    color: white;
+    text-align: justify;
+}
+
+.logo-paragraph {
+    color: black;
+}
+
+.articleh3 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.infodiv {
+    width: 100%;
+    border: solid  rgb(69, 82, 104);
+}
+
+
+.social1, .social2, .social3 {
+    width: 35px;
+}
+
+.infop {
+    color: black;
+}
+
+.mapimg {
+    max-width: 100%;
+    padding: 10px;
+    align-self: center;
+}
+
+.main {
+    display: inline;
+    margin: auto;
+}
+
+.snow, .rainbow, .river, .spring2, .fall, .morning, .tornado, .lightning, .spring {
+    margin: 3px;
+    border: solid black 1px;
+    text-align: center;
+}
+
+p {
+    color: black;
+}
+
+ 
+img[data-src] {
+    max-width: 100%;
+}

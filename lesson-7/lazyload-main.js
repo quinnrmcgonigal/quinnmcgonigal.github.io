@@ -15,7 +15,7 @@ function preloadImage(img) {
 
 const imgOptions = {
     threshold: 1,
-    rootMargin: "0px 0px 300px 0px"
+    rootMargin: "0px 0px 200px 0px"
 };
 
 const imgObserver = new IntersectionObserver((entries, imgObserver) => {
@@ -33,26 +33,4 @@ images.forEach(img => {
     imgObserver.observe(img);
 })
 
-const appearOptions = {
-    threshold: 1,
-    rootMargin: "0px 0px 200px 0px"
-};
 
-const appearOnScroll = new IntersectionObserver(function(
-    entries,
-    appearOnScroll
-) {
-    entries.forEach(entry => {
-        if (!entry.isIntersecting) {
-            return;
-        } else {
-            entry.target.classList.add('appear');
-            appearOnScroll.unobserve(entry.target);
-        }
-    })
-}, 
-appearOptions);
-
-faders .forEach(fader => {
-    appearOnScroll.observe(fader);
-})

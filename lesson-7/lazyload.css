@@ -7,49 +7,37 @@ img {
     padding-top: 5px;
     padding-bottom: 5px;
     width: 400px;
+    /* opacity: 1;
+    transition: all 500ms; */
+}
 
-    transform: translateX(50%);
+.flowers, .mountain, .lake, .ocean, .city, .snow{
+    display: block;
+    margin: auto;
+    
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        width: 375px;
+    }
+
+    to {
+        opacity: 1;
+        width: 400px;
+    }
+}
+
+.img[data-src] {
+    animation: fadeIn 2s;
+}
+
+/* .main {
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+.main.appear {
     opacity: 1;
-    transition: all 500ms;
-}
-
-.main {
-    display: grid;
-    grid-template-rows: 510px 510px 510px 510px 510px 510px;
-}
-
-.flowers {
-    grid-row: 1/2;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.mountian {
-    grid-row: 2/3;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.lake{
-    grid-row: 3/4;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.ocean {
-    grid-row: 4/5;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.city{
-    grid-row: 5/6;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.snow{
-    grid-row: 6/7s;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
+} */

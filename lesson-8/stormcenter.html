@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Fill Me In">
+<meta name="author" content="Quinn McGonigal">
+
+<title>Image Gallary</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../lesson6/css/small-css.css">
+<link rel="stylesheet" href="../lesson6/css/med-css.css">
+<link rel="stylesheet" href="../lesson6/css/wide-css.css">
+<link rel="stylesheet" href="css/formstyle.css">
+<script defer src="lazyload-main.js"></script>
+<body>
+    <header class="top">
+        <img class="logo" src="../lesson-7/images/iconfinder_weather_1054936.png" alt="logo">
+        <h2 class="logo-title">QUIK WEATHER</h2>
+        <p class="logo-paragraph">The quickest weather in the West</p>
+    </header>
+    <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li class="column1"><a href="index.html">HOME</a></li>
+                <li class="column2"><a href="preston-4.html">PRESTON</a></li>
+                <li class="column3"><a href="../Lesson5/preston-5.html">SODA SPRINGS</a></li>
+                <li class="column4"><a href="fish-haven.html">FISH HAVEN</a></li>
+                <li class="column5"><a href="storm-center.html">STORM CENTER</a></li>
+                <li class="column6"><a href="gallery-7.html">GALLARY</a></li>
+            </ul>
+    </nav>
+<main>
+    <h1>Storm Report</h1>
+    <form method="get" action="thanks.html">
+    <fieldset class="topLbl">
+        <legend>Personal Information</legend>
+        <label class="topLbl">Name* <input type="text" name="fname" minlength="5" required></label>
+        <label class="topLbl">Email <input type="email" name="email" placeholder="bobhanks@hotmail.com"></label>
+        <label class="topLbl">Phone Number* <input type="tel" name="tel" required></label>
+        <label class="topLbl">Zip Code* <input type="number" name="number" required></label>
+    </fieldset>
+    <fieldset class="form-mid">
+        <legend>Storm Information</legend>
+        <label class="topLbl">Storm Date <input type="date" name="completedDate"></label>
+        <label class="topLbl">Storm Type
+            <select name="datalist">
+                    <option value="">Please Select &#9662;</option>
+                <option value="flood">Flash Flood</option>
+                <option value="hail">Hail</option>
+                <option value="hurricane">Hurricane</option>
+                <option value="thunder">Thunderstorm</option>
+                <option value="tornado">Tornado</option>
+            </select>
+        </label>
+        <label class="topLbl">Storm Severity
+            <div class="slidecontainer">
+                <input type="range" value="5" min="1" max="10" oninput="this.nextElementSibling.value = this.value">
+                <output>5</output>
+            </div>
+        </label>
+        <label class="topLbl">Storm Region 
+            <select name="datalist">
+                <option selected="true" disabled="disabled">Select Region  &#9662;</option>
+                <option value="preston">Preston</option>
+                <option value="soda">Soda Springs</option>
+                <option value="fish">Fish Haven</option>
+            </select>
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Extra Information</legend>
+        <label name="danger" class="radiolist">
+            <div>User in Danger?</div>
+            <label class="mid"><input type="radio" name="radio" value="yes"> Yes</label>
+            <label class="mid"><input type="radio" name="radio" value="maybe"> Maybe</label>
+            <label class="mid"><input type="radio" name="radio" value="no"> No</label>
+        </label>
+        <label class="topLbl">Additional Information</label>
+        <label class="topLbl" name="additional">
+            <textarea name="text" rows="4" cols="50" oninput="this.nextElementSibling.value = this.value"></textarea>
+        </label>
+    </fieldset>
+    <input class="reportBtn" name="submit" type="submit" value =  "Submit my report">
+    </form>
+</main>
+<footer class="bottom">
+    <p id="top-header"> &copy; 2020 | Quinn R. McGonigal | California | <a class="byuilink" href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+    <p id="bottom-header">
+        <script src="js/index_script.js"></script>
+    </p> 
+</footer>
+</body>
+</html>
